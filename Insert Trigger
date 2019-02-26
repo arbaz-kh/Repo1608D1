@@ -1,0 +1,11 @@
+create trigger ActInsert
+on Student
+for insert
+as
+begin
+	declare @id int
+	declare @name varchar(30)
+	select @id=stdid,@name=name from deleted
+
+	insert into studentLog(studentid,studentname,Activity,actDate) values(@id,@name,'Record Insert',GETDATE())
+end;
