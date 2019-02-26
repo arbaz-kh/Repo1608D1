@@ -1,0 +1,6 @@
+c:\users\asp.aptech\documents\visual studio 2013\Projects\ADOImplementation\ADOImplementation\bin\ADOImplementation.dll.config
+c:\users\asp.aptech\documents\visual studio 2013\Projects\ADOImplementation\ADOImplementation\bin\ADOImplementation.dll
+c:\users\asp.aptech\documents\visual studio 2013\Projects\ADOImplementation\ADOImplementation\bin\ADOImplementation.pdb
+c:\users\asp.aptech\documents\visual studio 2013\Projects\ADOImplementation\ADOImplementation\obj\Debug\ADOImplementation.csprojResolveAssemblyReference.cache
+c:\users\asp.aptech\documents\visual studio 2013\Projects\ADOImplementation\ADOImplementation\obj\Debug\ADOImplementation.dll
+c:\users\asp.aptech\documents\visual studio 2013\Projects\ADOImplementation\ADOImplementation\obj\Debug\ADOImplementation.pdb

@@ -1,0 +1,36 @@
+DDL Data Defination Lang
+
+Create Db
+	( CREATE DATABASE aptech ) 
+Create Table
+	{ 
+		CREATE TABLE emp(
+			ID int,
+			first_name varchar(30),
+			last_name varchar(30),
+			email varchar(30),
+			salary varchar(10)
+		)   
+
+	} 
+
+Alter Table 
+
+	-Add    Column
+
+	( ALTER TABLE emp ADD COLUMN emp_address varchar(100) )
+
+	-Drop   Column
+
+	( ALTER TABLE emp DROP COLUMN emp_address)
+
+	-Modify Column
+	
+	( ALTER TABLE emp ALTER COLUMN salary int );
+
+
+Drop Db
+	( DROP DATABASE aptech ) 
+Drop Table
+	( DROP TABLE emp ) 
+
