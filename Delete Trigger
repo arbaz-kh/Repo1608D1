@@ -1,0 +1,11 @@
+create trigger ActDel
+on Student
+for delete
+as
+begin
+	declare @id int
+	declare @name varchar(30)
+	select @id=stdid,@name=name from deleted
+
+	insert into studentLog(studentid,studentname,Activity,actDate) values(@id,@name,'Record deleted',GETDATE())
+end;
