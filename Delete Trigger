@@ -4,6 +4,7 @@ for delete
 as
 begin
 	declare @id int
+	add cooment
 	declare @name varchar(30)
 	select @id=stdid,@name=name from deleted
 
